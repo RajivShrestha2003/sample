@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var d = new Date();
+        var christmasDate = new Date(d.getFullYear(), 11, 25);
+        //Js convert difference in days in millisecond so we have to convert that into day.........
+        var daysLeft = Math.round((christmasDate - d)/(24 * 60 * 60 * 1000))
+        document.write("There is " + daysLeft + " days left before christmas.")
+    </script>
+    
+</body>
+</html>
